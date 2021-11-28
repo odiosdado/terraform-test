@@ -11,6 +11,14 @@ locals {
           }
       }
   }
+# subnet_ouputs = flatten([
+#       for subnet, subnet_data in local.subnet_list : {
+#         network_key = network_key
+#         subnet_key  = subnet_key
+#         network_id  = aws_vpc.example[network_key].id
+#         cidr_block  = subnet.cidr_block
+#       }
+#   ])
 }
 
 output "test" {
