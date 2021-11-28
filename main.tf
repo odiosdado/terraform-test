@@ -13,6 +13,10 @@ locals {
               "vnet" = "vnet1"
               "subnet" = "subnet-1234"
           }
+          "test-1-4" = {
+              "vnet" = "vnet1"
+              "subnet" = "subnet-12345"
+          }
       }
   }
 }
