@@ -8,6 +8,10 @@ locals {
           "test-1-2" = {
               "vnet" = "vnet1"
               "subnet" = "subnet-123"
+          },
+          "test-1-3" = {
+              "vnet" = "vnet1"
+              "subnet" = "subnet-1234"
           }
       }
   }
